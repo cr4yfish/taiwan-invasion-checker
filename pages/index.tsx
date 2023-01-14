@@ -50,7 +50,7 @@ function Home({ hasInvadedData,telegramMessageCount, telegramMessages } :
               return (
                 <Card key={index} style={{ margin: 0 }} className={ montserrat.className }>
                     <Card.Header>
-                      <Text h5 weight="light">{message.reactions.results.map((reaction, index) => {
+                      <Text h5 weight="light">{message.reactions.results.map((reaction : any, index: any) => {
                         return (
                           <span key={index}>{reaction.reaction.emoticon} {reaction.count} </span>
                         )
