@@ -14,3 +14,25 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+  #wrapper {
+    padding: 1rem;
+  }
+  #wrapper h1, h2 {
+    width: fit-content;
+  }
+  #wrapper h1 {
+    font-size: 24pt;
+  }
+  #wrapper h2 {
+    font-size: 16pt;
+  }
+  #collapse {
+    width: 100% !important;
+  }
+}
