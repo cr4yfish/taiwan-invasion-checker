@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/cr4yfish/taiwan-invasion-checker">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://i.imgur.com/3rUmnZL.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Has China Invaded Taiwan?</h3>
@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://i.imgur.com/3rUmnZL.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
