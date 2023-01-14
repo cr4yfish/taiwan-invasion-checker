@@ -60,7 +60,7 @@ function Home({ hasInvadedData,telegramMessageCount, telegramMessages } :
                       <Text h4 weight="light" dangerouslySetInnerHTML={{ __html: message.message}}></Text>
                     </Card.Body>
                     <Card.Footer>
-                      <Text h5 weight="light">{new Date(message.date * 1000).toLocaleString()} Last edited: {new Date(message.edit_date * 1000).toLocaleString()}</Text>
+                      <Text h5 weight="light">{new Date(message.date * 1000).toLocaleString()} { message.edit_date? ("Last edited: " + new Date(message.edit_date * 1000).toLocaleString()) : null }</Text>
                     </Card.Footer>
                 </Card>
               )
