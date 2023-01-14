@@ -44,7 +44,6 @@ export async function getServerSideProps({ req, res} : {req: any, res: any}) {
     'public, s-maxage=10, stale-while-revalidate=59'
   )
   const hasInvadedData = await hasChinaInvadedTaiwan();
-  console.log(hasInvadedData);
   return {
     props: {hasInvadedData},
   }

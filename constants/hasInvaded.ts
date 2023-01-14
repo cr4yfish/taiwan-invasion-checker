@@ -1,6 +1,2 @@
-async function hasInvaded() {
-    const hasInvaded = false;
-    return hasInvaded;
-}
-
+const hasInvaded = false;
 export default hasInvaded;
